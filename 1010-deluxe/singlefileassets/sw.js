@@ -1,1 +1,0 @@
-const B='https://cdn.jsdelivr.net/gh/un-zynq/g1/1010-deluxe/';self.addEventListener('fetch',e=>{const r=new URL(e.request.url);if(r.origin===self.location.origin){e.respondWith(fetch(new URL(r.pathname.substring(1),B),{mode:'cors'}))}});
